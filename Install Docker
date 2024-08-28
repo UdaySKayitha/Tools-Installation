@@ -1,0 +1,8 @@
+sudo apt-get update -y && sudo apt install docker.io -y
+sudo systemctl enable docker
+sudo systemctl start docker
+sudo usermod -aG docker $USER
+newgrp docker
+sudo systemctl restart docker
+docker --version
+docker images
