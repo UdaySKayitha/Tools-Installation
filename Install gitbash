@@ -1,0 +1,6 @@
+Click this link to follow the git bash installation --> https://git-scm.com/download/win
+
+Execute the below command from the PowerShell 
+
+winget install --id Git.Git -e --source winget
+
