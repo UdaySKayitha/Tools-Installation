@@ -1,0 +1,20 @@
+Install OpenJDK as this is required for Maven to work --> https://learn.microsoft.com/en-us/java/openjdk/install
+
+winget search Microsoft.OpenJDK
+winget install Microsoft.OpenJDK.21
+ 
+Click this link to download Maven --> https://maven.apache.org/download.cgi
+
+Extract the downloaded zip file.
+
+Follow the instructions to update the environment variables as there is no installation is needed --> https://phoenixnap.com/kb/install-maven-windows
+
+
+On Cloud VM:
+
+sudo apt update –y
+sudo apt install OpenJDK-11-jdk-headless -y
+sudo apt install maven -y
+mvn -version
+java -version
+
