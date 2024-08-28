@@ -1,0 +1,8 @@
+Install etcdctl on Windows --> https://etcd.io/docs/v3.5/install/ (the same link has installation steps for Linux and macOS).
+
+Install pre-built binaries
+The easiest way to install etcd is from pre-built binaries:
+1.	Download the compressed archive file for your platform from https://github.com/etcd-io/etcd/releases/, choosing release v3.5.15 or later.
+2.	Unpack the archive file. This results in a directory containing the binaries.
+3.	Add the executable binaries to your path. For example, rename and/or move the binaries to a directory in your path (like /usr/local/bin), or add the directory created by the previous step to your path.
+4.	From a shell, test that etcd is in your path: etcdctl version
