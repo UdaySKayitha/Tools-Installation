@@ -1,0 +1,3 @@
+Install helm on Windows --> https://helm.sh/docs/intro/install/ (the same link has installation steps for Linux and macOS).
+
+winget install Helm.Helm
