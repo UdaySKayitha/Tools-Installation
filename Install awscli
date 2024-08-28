@@ -1,0 +1,7 @@
+Click this link to follow the AWS CLI installation --> https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+Execute the below command from PowerShell or Gitbash
+
+msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
+
+Note: The same link has the steps for Mac as well
