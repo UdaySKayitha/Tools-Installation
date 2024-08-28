@@ -1,0 +1,7 @@
+Click this link to follow the AZ CLI installation --> https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=winget
+
+Execute the below command from PowerShell or Git Bash
+ 
+winget install -e --id Microsoft.AzureCLI
+
+Note: Follow the link to perform the same on Mac --> https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-macos
